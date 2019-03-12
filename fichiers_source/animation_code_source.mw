@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="16" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="infinity" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="4" screenpixelheight="900" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Group hide-input="false" hide-output="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" size="18" bold="true" layout="Normal" alignment="centred"><Font bold="true" size="18">Projet d'animation final</Font></Text-field>
+<Text-field style="Text" size="18" bold="true" layout="Normal" alignment="centred"><Font bold="true" size="18">Xavier Fauteux-Chapleau</Font></Text-field>
+<Text-field style="Text" size="18" bold="true" layout="Normal" alignment="centred"><Font bold="true" encoding="UTF-8" size="18">\303\251quipe : 11</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Initialisation</Text-field></Title>
+<Group labelreference="L2017" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2015" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">interface(rtablesize=infinity, displayprecision=4):
+with(plots):
+with(plottools):
+with(LinearAlgebra):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2016" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">equipe := &quot;\303\211quipe 11 : Xavier&quot;:</Font>
+fenetre:=[0..1000,0..600]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L10" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8" foreground="[0,0,255]">Proc\303\251dures n\303\251cessaires \303\240 l'animation</Font></Text-field></Title>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" foreground="[0,0,255]" layout="Heading 2"><Font encoding="UTF-8" foreground="[0,0,255]">La proc\303\251dure </Font><Font foreground="[0,0,255]">Relier(obj, couleur)</Font></Text-field></Title>
+<Group labelreference="L2555" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font size="14">On utilise la <Font encoding="UTF-8">proc\303\251dure </Font><Font bold="true">Relier(obj,couleur)</Font><Font encoding="UTF-8"> pour tracer seulement le contour de l'objet d\303\251fini par la matrice </Font><Font bold="true">obj</Font><Font encoding="UTF-8">. La commande tracera une ligne droite du point 1 (c-\303\240-d dans la colonne 1) au point 2, une autre du point 2 au point 3, etc. Si on veut lever le crayon , il suffit d'ins\303\251rer un colonne contenant la valeur <Font bold="true">\342\210\236</Font>, qu s'\303\251crit </Font><Font bold="true">infinity</Font> en langage <Font bold="true">Maple</Font>. <Font encoding="UTF-8">Lorsqu'on veut tracer l'objet avec diff\303\251rentes couleurs, on pr\303\251cisera</Font> les couleurs  sous la forme d'une liste <Font bold="true">[couleur1=</Font></Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtSSNtbkdGJDYoUSIxRidGMkY1RjovRj5GQkZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEjLi5GJ0YyRjVGOkZJRkAvJSZmZW5jZUdGPC8lKnNlcGFyYXRvckdGPC8lKXN0cmV0Y2h5R0Y8LyUqc3ltbWV0cmljR0Y8LyUobGFyZ2VvcEdGPC8lLm1vdmFibGVsaW1pdHNHRjwvJSdhY2NlbnRHRjwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR1EmMC4wZW1GJy1GLDYlRi4tRiM2Ki1GLzYpUSJqRidGMkY1RjhGOkY9RkBGMkY1RjhGOkZPRj1GQEZSRjJGNUY6Rk9GSUZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtSSNtbkdGJDYoUSIxRidGMkY1RjovRj5GQkZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEjLi5GJ0YyRjVGOkZJRkAvJSZmZW5jZUdGPC8lKnNlcGFyYXRvckdGPC8lKXN0cmV0Y2h5R0Y8LyUqc3ltbWV0cmljR0Y8LyUobGFyZ2VvcEdGPC8lLm1vdmFibGVsaW1pdHNHRjwvJSdhY2NlbnRHRjwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR1EmMC4wZW1GJy1GLDYlRi4tRiM2Ki1GLzYpUSJqRidGMkY1RjhGOkY9RkBGMkY1RjhGOkZPRj1GQEZSRjJGNUY6Rk9GSUZA</Equation><Font bold="true" size="14"> , couleur2=</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNi4tRi82KVEiakYnRjJGNUY4RjpGPUZALUkjbW9HRiQ2MVEiK0YnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmduLUkjbW5HRiQ2KFEiMUYnRjJGNUY6RkxGQEYyRjVGOC8lK2ZvcmVncm91bmRHUSxbMjAwLDAsMjAwXUYnRjovJSxwbGFjZWhvbGRlckdGNy8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y9RkAvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0YyRjVGOkZjb0ZMRkA=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNi4tRi82KVEiakYnRjJGNUY4RjpGPUZALUkjbW9HRiQ2MVEiK0YnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmduLUkjbW5HRiQ2KFEiMUYnRjJGNUY6RkxGQEYyRjVGOC8lK2ZvcmVncm91bmRHUSxbMjAwLDAsMjAwXUYnRjovJSxwbGFjZWhvbGRlckdGNy8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y9RkAvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0YyRjVGOkZjb0ZMRkA=</Equation><Font bold="true" size="14">..</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtRi82KVEia0YnRjJGNUY4RjpGPUZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEifkYnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmJvLUZUNjFRIixGJ0YyRjVGOkZXRkBGWC9GZW5GN0ZmbkZobkZqbkZcb0Zeb0Zgby9GZG9RLDAuMzMzMzMzM2VtRidGUy1GVDYxUSMuLkYnRjJGNUY6RldGQEZYRlpGZm5GaG5Gam5GXG9GXm8vRmFvUSwwLjIyMjIyMjJlbUYnRmNvLUZUNjFRIi5GJ0YyRjVGOkZXRkBGWEZaRmZuRmhuRmpuRlxvRl5vRmBvRmNvRjJGNUY6Rk1GV0ZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtRi82KVEia0YnRjJGNUY4RjpGPUZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEifkYnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmJvLUZUNjFRIixGJ0YyRjVGOkZXRkBGWC9GZW5GN0ZmbkZobkZqbkZcb0Zeb0Zgby9GZG9RLDAuMzMzMzMzM2VtRidGUy1GVDYxUSMuLkYnRjJGNUY6RldGQEZYRlpGZm5GaG5Gam5GXG9GXm8vRmFvUSwwLjIyMjIyMjJlbUYnRmNvLUZUNjFRIi5GJ0YyRjVGOkZXRkBGWEZaRmZuRmhuRmpuRlxvRl5vRmBvRmNvRjJGNUY6Rk1GV0ZA</Equation><Font bold="true" size="14">]</Font><Font encoding="UTF-8" size="14"> (le contour de l'objet d\303\251fini de la colonne 1 \303\240 la colonne j sera colori\303\251 avec la couleur </Font><Font bold="true" size="14">couleur1</Font><Font size="14"> et ainsi de suite).<Font encoding="UTF-8"> Pour une liste des choix de couleurs, faites une recherche dans l'aide Maple avec le mot-cl\303\251 &quot;</Font><Font bold="true">colornames</Font>&quot;.
+</Font><Font size="16">
+</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Relier:=proc(obj::Matrix,couleur::{name,string,list})::list;
+option `Copyright (c) 2016 Martin Courchesne`:
+local j,w,k,i,bloc,sum:
+use plots,plottools,LinearAlgebra in
+
+if type(couleur,list) then  
+  for k from 1 to numelems(couleur) do
+    bloc[k]:=Relier(obj[1..2,rhs(couleur[k])],lhs(couleur[k]),_passed[3.._npassed]):
+  od:
+  return display(seq(bloc[k],k=1..numelems(couleur)));
+end if:
+
+i:=1:
+for j from 1 to (ColumnDimension(obj)-1) do
+  sum:=evalf(obj[1,j]+obj[2,j]+obj[1,j+1]+obj[2,j+1]):
+  if not type(sum,undefined) and (abs(sum) &lt; evalf(infinity)) then
+    w[i]:=line([obj[1,j],obj[2,j]],[obj[1,j+1],obj[2,j+1]],color=couleur,_passed[3.._npassed]):
+    i:=i+1:
+  end if:
+od:
+return display(seq(w[i],i=1..numelems(w)));
+
+end use:
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Group labelreference="L2554" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+</Input>
+</Group>
+<Text-field style="Heading 2" foreground="[0,0,255]" layout="Heading 2"><Font encoding="UTF-8" foreground="[0,0,255]">La proc\303\251dure </Font><Font foreground="[0,0,255]">RelierPlein(obj, couleur) </Font></Text-field></Title>
+<Group labelreference="L2563" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" size="14" layout="Normal"><Font encoding="UTF-8" size="14">La proc\303\251dure </Font><Font bold="true" size="14">RelierPlein(obj,couleur)</Font><Font size="14"> tente de remplir la forme <Font encoding="UTF-8">d\303\251finie par la matrice </Font><Font bold="true">obj</Font>. <Font encoding="UTF-8"> (Si la forme est trop irr\303\251guli\303\250re, le r\303\251sultat peut \303\252tre douteux...). Pour s\303\251parer la forme en plusieurs polygones distincts, on peut ins\303\251rer une colonne contenant <Font bold="true">\342\210\236</Font></Font>. <Font encoding="UTF-8">Lorsqu'on veut remplir les diff\303\251rentes parties de l'objet avec diff\303\251rentes couleurs, on pr\303\251cisera</Font> les couleurs pour chacune des parties sous la forme d'une liste <Font bold="true">[couleur1=</Font></Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtSSNtbkdGJDYoUSIxRidGMkY1RjovRj5GQkZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEjLi5GJ0YyRjVGOkZJRkAvJSZmZW5jZUdGPC8lKnNlcGFyYXRvckdGPC8lKXN0cmV0Y2h5R0Y8LyUqc3ltbWV0cmljR0Y8LyUobGFyZ2VvcEdGPC8lLm1vdmFibGVsaW1pdHNHRjwvJSdhY2NlbnRHRjwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR1EmMC4wZW1GJy1GLDYlRi4tRiM2Ki1GLzYpUSJqRidGMkY1RjhGOkY9RkBGMkY1RjhGOkZPRj1GQEZSRjJGNUY6Rk9GSUZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtSSNtbkdGJDYoUSIxRidGMkY1RjovRj5GQkZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEjLi5GJ0YyRjVGOkZJRkAvJSZmZW5jZUdGPC8lKnNlcGFyYXRvckdGPC8lKXN0cmV0Y2h5R0Y8LyUqc3ltbWV0cmljR0Y8LyUobGFyZ2VvcEdGPC8lLm1vdmFibGVsaW1pdHNHRjwvJSdhY2NlbnRHRjwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR1EmMC4wZW1GJy1GLDYlRi4tRiM2Ki1GLzYpUSJqRidGMkY1RjhGOkY9RkBGMkY1RjhGOkZPRj1GQEZSRjJGNUY6Rk9GSUZA</Equation><Font bold="true" size="14"> , couleur2=</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNi4tRi82KVEiakYnRjJGNUY4RjpGPUZALUkjbW9HRiQ2MVEiK0YnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmduLUkjbW5HRiQ2KFEiMUYnRjJGNUY6RkxGQEYyRjVGOC8lK2ZvcmVncm91bmRHUSxbMjAwLDAsMjAwXUYnRjovJSxwbGFjZWhvbGRlckdGNy8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y9RkAvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0YyRjVGOkZjb0ZMRkA=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNi4tRi82KVEiakYnRjJGNUY4RjpGPUZALUkjbW9HRiQ2MVEiK0YnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmduLUkjbW5HRiQ2KFEiMUYnRjJGNUY6RkxGQEYyRjVGOC8lK2ZvcmVncm91bmRHUSxbMjAwLDAsMjAwXUYnRjovJSxwbGFjZWhvbGRlckdGNy8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y9RkAvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0YyRjVGOkZjb0ZMRkA=</Equation><Font bold="true" size="14">..</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtRi82KVEia0YnRjJGNUY4RjpGPUZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEifkYnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmJvLUZUNjFRIixGJ0YyRjVGOkZXRkBGWC9GZW5GN0ZmbkZobkZqbkZcb0Zeb0Zgby9GZG9RLDAuMzMzMzMzM2VtRidGUy1GVDYxUSMuLkYnRjJGNUY6RldGQEZYRlpGZm5GaG5Gam5GXG9GXm8vRmFvUSwwLjIyMjIyMjJlbUYnRmNvLUZUNjFRIi5GJ0YyRjVGOkZXRkBGWEZaRmZuRmhuRmpuRlxvRl5vRmBvRmNvRjJGNUY6Rk1GV0ZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtRi82KVEia0YnRjJGNUY4RjpGPUZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEifkYnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmJvLUZUNjFRIixGJ0YyRjVGOkZXRkBGWC9GZW5GN0ZmbkZobkZqbkZcb0Zeb0Zgby9GZG9RLDAuMzMzMzMzM2VtRidGUy1GVDYxUSMuLkYnRjJGNUY6RldGQEZYRlpGZm5GaG5Gam5GXG9GXm8vRmFvUSwwLjIyMjIyMjJlbUYnRmNvLUZUNjFRIi5GJ0YyRjVGOkZXRkBGWEZaRmZuRmhuRmpuRlxvRl5vRmBvRmNvRjJGNUY6Rk1GV0ZA</Equation><Font bold="true" size="14">]</Font><Font encoding="UTF-8" size="14"> (la partie 1 d\303\251finie  de la colonne 1 \303\240 la colonne j sera remplie de la couleur </Font><Font bold="true" size="14">couleur1</Font><Font size="14"> et ainsi de suite).</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RelierPlein:=proc(obj::Matrix,couleur::{name,string,list})::list;
+option `Copyright (c) 2016 Martin Courchesne`:
+local j,w,k,bloc,ptlist,sum:
+use plots,plottools,LinearAlgebra in
+
+if type(couleur,list) then  
+  for k from 1 to numelems(couleur) do
+    bloc[k]:=RelierPlein(obj[1..2,rhs(couleur[k])],lhs(couleur[k]),_passed[3.._npassed]):
+  od:
+  return display(seq(bloc[k],k=1..numelems(couleur)));
+end if:
+
+ptlist:=[]:
+for j from 1 to ColumnDimension(obj) do 
+  sum:=evalf(obj[1,j]+obj[2,j]):
+  if not type(sum,undefined) and (abs(sum) &lt; evalf(infinity)) then
+    ptlist:=[op(ptlist),[obj[1,j],obj[2,j]]]:
+  elif j&lt;ColumnDimension(obj) then    # we hit an infinite value in the matrix, not in the last column
+    return display(polygon(ptlist,color=couleur, _passed[3.._npassed]),
+                   RelierPlein(obj[1..2,j+1..ColumnDimension(obj)],couleur,_passed[3.._npassed])):
+  else return display(polygon(ptlist,color=couleur, _passed[3.._npassed])):
+  end if:
+od:
+return display(polygon(ptlist,color=couleur, _passed[3.._npassed])):
+
+end use:
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" foreground="[0,0,255]" layout="Heading 2"><Font encoding="UTF-8" foreground="[0,0,255]">La proc\303\251dure </Font><Font foreground="[0,0,255]">ReadMatrixFromFile(filename)</Font></Text-field></Title>
+<Group labelreference="L2564" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Les commandes suivantes permettent l'importation d'une matrice \303\240 partir d'un fichier texte (.txt)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2556" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Voici la proc\303\251dure qui s\303\251pare un string contenant des nombres en un vecteur de nombres (entiers ou r\303\251els)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2559" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SplitIntoNumbers:=proc(str, <Font encoding="UTF-8">{ decimal_separator::string := &quot;\134.&quot; }</Font>)
+  local chunks,k:
+<Font encoding="UTF-8">  chunks:=convert(remove(type,[StringTools:-RegSplit](cat(&quot;[^0-9\134\134&quot;,decimal_separator,&quot;-&quot;,&quot;]+&quot;),str),&quot;&quot;),Vector):
+</Font>  for k from 1 to numelems(chunks) do
+<Font encoding="UTF-8">    chunks[k] := parse(StringTools:-Substitute(chunks[k],decimal_separator,&quot;\134.&quot;)):
+</Font>  od:
+  return chunks:
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2558" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pour lire une matrice \303\240 partir d'un fichier:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2561" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ReadMatrixFromFile:=proc(filename::string, {pen_lift::string:=&quot;#&quot;})
+  local fd,A,B,j,current_line,row_dim:
+  option `Copyright (c) 2016 Martin Courchesne`:
+  use FileTools[Text] in
+  fd:=Open(filename):
+
+  try
+  current_line:=ReadLine(fd):
+  while (length(current_line)=0 or StringTools:-RegMatch(pen_lift,current_line)) do
+    current_line:=ReadLine(fd):
+  od:
+  A:=SplitIntoNumbers(current_line):
+  row_dim:=LinearAlgebra:-Dimension(A):
+
+  current_line:=ReadLine(fd):
+  while current_line&lt;&gt;NULL do
+    if StringTools:-RegMatch(pen_lift,current_line) then
+      A:=&lt;A|&lt;infinity,infinity&gt;&gt;:
+    elif length(current_line)&lt;&gt;0 then
+      B:=SplitIntoNumbers(current_line):
+      if LinearAlgebra:-Dimension(B)=row_dim then
+        A:=&lt;A|B&gt;:
+      end if:
+    end if:
+    current_line:=ReadLine(fd):
+  od:
+
+  finally
+  Close(fd):
+  end try:
+
+  end use:
+
+  return A:
+end proc:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" foreground="[0,0,255]" layout="Heading 2"><Font encoding="UTF-8" foreground="[0,0,255]">La proc\303\251dure Trans</Font><Font foreground="[0,0,255]">(m, a, b)</Font></Text-field></Title>
+<Group labelreference="L2557" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8" size="14">La proc\303\251dure </Font><Font bold="true" size="14">Trans(obj)</Font><Font size="14"> construit une matrice de translation pour la matrice d'objet <Font bold="true">obj</Font><Font encoding="UTF-8">. Cette matrice a le m\303\252me format que obj, mais chaque \303\251l\303\251ment de la premi\303\250re ligne a la m\303\252me valeur (d\303\251placement vers la droite), tout comme chaque \303\251l\303\251ment de la deuxi\303\250me ligne (d\303\251placement vers le haut).</Font></Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Trans:=proc(m,a,b)
+local i,r:
+r:=Matrix(2,ColumnDimension(m)):
+for i from 1 to ColumnDimension(m) do
+   r[1,i]:=a;
+   r[2,i]:=b 
+od:
+return r;
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8" foreground="[0,0,255]">La proc\303\251dure Rot(t)</Font></Text-field></Title>
+<Group labelreference="L2562" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8" size="14">La proc\303\251dure </Font><Font bold="true" size="14">Rot(t)</Font><Font size="14"> construit la matrice de rotation d'angle t <Font underline="true" encoding="UTF-8">degr\303\251s</Font><Font encoding="UTF-8">. (Comme les angles dans MAPLE sont en radians, la proc\303\251dure va effectuer la conversion).</Font></Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Rot:=t-&gt;evalf(&lt;cos(t*Pi/180),-sin(t*Pi/180);sin(t*Pi/180),cos(t*Pi/180)&gt;):</Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3">Exemple:
+<Font encoding="UTF-8">Dans l'exemple ci-dessous, on cr\303\251e une matrice de rotation de 45 degr\303\251s</Font></Text-field></Title>
+<Group hide-input="false" labelreference="L2560" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font style="Maple Input">Rot(45);</Font></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8" foreground="[0,0,255]">La proc\303\251dure Hom(k)</Font></Text-field></Title>
+<Group labelreference="L2619" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8" size="14">La proc\303\251dure </Font><Font bold="true" size="14">Hom(k)</Font><Font size="14"> construit la<Font encoding="UTF-8"> matrice d'homoth\303\251tie de facteur k.</Font></Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L2621" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Hom:=k -&gt; &lt;k,0;0,k&gt;;</Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3">Exemple</Text-field></Title>
+<Group hide-input="false" hide-output="false" labelreference="L2620" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Hom(3);</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">La proc\303\251dure ImageAlternance(nombre de r\303\251p\303\251tition,  temps actuel,  image1,  image2)</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal"><Font executable="true" encoding="UTF-8">Cette proc\303\251dure sert \303\240 cr\303\251er une animation alternant entre deux images. L'image retourn\303\251e d\303\251pend du nombre de fois qu'une image doit \303\252tre afich\303\251e et du temps actuel.
+</Font><Font executable="true">Par exemple, ImageAlternance( 3, 0 .. 11, A, B) = A,A,A,B,B,B,A,A,A,B,B,B</Font></Text-field>
+<Group labelreference="L4343" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ImageAlternance := proc(n,t,i,j)
+   if ((t+n) mod (n*2)) &lt; n then
+      return j:
+   else
+      return i:
+   end if:
+end proc:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">La proc\303\251dure CompteurAlternance(nombre de r\303\251p\303\251titon, temps actuel, img3, img2, img1, imgGO)</Font></Text-field></Title>
+<Group labelreference="L5530" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Cette proc\303\251dure sert \303\240 afficher l'animation 3.. 2.. 1.. GO.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5531" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">CompteurAlternance := proc(n,t,a,b,c,d)
+   if( t &lt; n ) then
+      return a:
+   elif( t &lt; 2*n ) then
+      return b:
+   elif( t &lt; 3*n ) then
+      return c:
+   else
+      return d:
+   end if:
+end proc:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">La proc\303\251dure angleBallon(matrice de vitesse, scalaire)</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal"><Font executable="true" encoding="UTF-8">Cette proc\303\251dure sert \303\240 cr\303\251er une variation de l'angle du ballon lorsqu'il est en mouvement pour lui donner un effet.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font executable="true" encoding="UTF-8"> La vitesse en x influence lin\303\251airement le r\303\251sultat et la vitesse en y l'influence en suivant une fonction racine carr\303\251e.</Font></Text-field>
+<Group labelreference="L4344" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">AngleBallon := proc(v,k)
+   return k*( abs(v[1,1]) + sqrt(abs(v[2,1])) ):
+end proc:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Animation</Text-field></Title>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Compteurs et Fin</Text-field></Title>
+<Group labelreference="L4573" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_trois := [ red = 1..30 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5278" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">trois_txt     := ReadMatrixFromFile(&quot;trois.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5297" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">trois         := Trans( trois_txt, 500, 400) + trois_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5277" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_trois   := RelierPlein( trois, couleur_trois, style=polygon ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5313" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5317" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_deux  := [ &quot;Orange&quot; = 1..28 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5316" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">deux_txt      := ReadMatrixFromFile(&quot;deux.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5315" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">deux          := Trans( deux_txt , 500, 400) + deux_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5318" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_deux    := RelierPlein( deux, couleur_deux, style=polygon ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5314" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L5337" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_un    := [ yellow = 1..12 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5338" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">un_txt        := ReadMatrixFromFile(&quot;un.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5339" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">un            := Trans( un_txt , 500, 400) + un_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5336" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_un      := RelierPlein( un, couleur_un, style=polygon ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5426" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L5424" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_go    := [ &quot;Green&quot; = 1..69 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5423" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">go_txt        := ReadMatrixFromFile(&quot;go.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5422" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">go            := Trans( go_txt , 500, 400) + go_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5425" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_go      := RelierPlein( go, couleur_go, style=polygon ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8189" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L8194" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_fin   := [ &quot;MediumSlateBlue&quot; = 1..29 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8193" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fin_txt       := ReadMatrixFromFile(&quot;fin.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8191" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">fin           := Trans( fin_txt, 500, 400) + fin_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8192" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_fin     := RelierPlein( fin, couleur_fin, style=polygon ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5421" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Chaise</Text-field></Title>
+<Group labelreference="L4360" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_bois   := [ brown = 1..17 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4388" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_tissu1 := [ &quot;CornflowerBlue&quot; = 18..41 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4389" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_tissu2 := [ white = 42..57 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4359" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">chaise_txt     := ReadMatrixFromFile(&quot;chaise.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4429" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">chaise         := Hom(0.8) . chaise_txt + Trans( chaise_txt, 770, 0 ):</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L4361" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_chaise   := display( RelierPlein(chaise, couleur_bois, style=polygon),
+                     RelierPlein(chaise, couleur_tissu1, style=polygon),
+                     RelierPlein(chaise, couleur_tissu2, style=polygon) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4358" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Dormeur</Text-field></Title>
+<Group labelreference="L4448" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_chapeau  := [ &quot;SandyBrown&quot; = 1..18 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4452" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_dormeur1 := [ black = 19..28 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4451" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_dormeur2 := [ black = 29..42 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4450" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dormeur_txt      := ReadMatrixFromFile(&quot;dormeur.txt&quot;):
+dormeur2_txt     := ReadMatrixFromFile(&quot;dormeur2.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7935" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dormeur_theta    := 0:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7934" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dormeur_position := Trans( dormeur_txt, 770, 0 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4449" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dormeur          := dormeur_txt + dormeur_position:</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L4447" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_dormeur    := display( RelierPlein(dormeur, couleur_chapeau, style=polygon),
+                       RelierPlein(dormeur, couleur_dormeur1, style=polygon),
+                       Relier(dormeur, couleur_dormeur2, thickness=4) ):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Sable</Text-field></Title>
+<Group labelreference="L3009" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_sable := [ &quot;Moccasin&quot; = 1..31 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2997" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">sable_txt     := ReadMatrixFromFile(&quot;sable.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2998" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_sable   := RelierPlein(sable_txt, couleur_sable, style=polygon):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Eau</Text-field></Title>
+<Group labelreference="L3461" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_eau := [ blue = 1..5 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3463" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">eau_txt     := ReadMatrixFromFile(&quot;eau.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3462" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_eau   := RelierPlein(eau_txt, couleur_eau, style=polygon):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Ciel</Text-field></Title>
+<Group labelreference="L3458" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_ciel := [ &quot;LightSkyBlue&quot; = 1..5 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3442" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ciel_txt     := ReadMatrixFromFile(&quot;ciel.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3459" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_ciel   := RelierPlein(ciel_txt, couleur_ciel, style=polygon):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Soleil</Text-field></Title>
+<Group labelreference="L3504" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_centre  := [ white = 1..16 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3513" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_bordure := [ yellow = 17..56 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3506" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">soleil_txt      := ReadMatrixFromFile(&quot;soleil.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4059" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">soleil          := soleil_txt + Trans( soleil_txt, 800 , 500 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3505" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_soleil    := display( RelierPlein(soleil, couleur_centre, style=polygon),
+                   RelierPlein(soleil, couleur_bordure, style=polygon) ):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Filet</Text-field></Title>
+<Group labelreference="L3115" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_poteau := [ brown = 1..11 ]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3118" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_fil    := [ &quot;DarkGrey&quot; = 12..59 ]:</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L3117" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">filet_txt      := ReadMatrixFromFile(&quot;filet.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4060" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">filet          := filet_txt + Trans( filet_txt, 300, 15 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3116" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_filet    := display( RelierPlein(filet, couleur_poteau, style=polygon),
+                     RelierPlein(filet, couleur_fil, style=polygon) ):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Ballon</Text-field></Title>
+<Group hide-input="false" hide-output="false" labelreference="L2568" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_ballon  := [blue= 1..7, white= 8..19, yellow= 20..31, white= 32..40, red= 39..54, white= 55..65]:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L2567" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_txt      := ReadMatrixFromFile(&quot;ballon.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4074" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon          := Hom(10) . ballon_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5670" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_theta    := 0:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4221" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_vitesse  := Trans( ballon_txt, 250, 800 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2571" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_position := Trans( ballon_txt, 187, 102 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2570" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Images des joueurs</Text-field></Title>
+<Group labelreference="L5664" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">idle1_txt      := ReadMatrixFromFile(&quot;idle1.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5665" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">idle2_txt      := ReadMatrixFromFile(&quot;idle2.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5666" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">touche_txt     := ReadMatrixFromFile(&quot;touche.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5667" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">manchette_txt  := ReadMatrixFromFile(&quot;manchette.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5668" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">service1_txt   := ReadMatrixFromFile(&quot;service1.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5669" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">service2_txt   := ReadMatrixFromFile(&quot;service2.txt&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8212" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L8215" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_tete   := [black=1..28]:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8214" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">couleur_lignes := [black=29..55]:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">PersonnageGB (gauche bas)</Text-field></Title>
+<Group labelreference="L5671" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">position_PersoGB := Trans(idle1_txt, 150, 10):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">PersonnageGH(gauche haut)</Text-field></Title>
+<Group labelreference="L5647" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">position_PersoGH := Trans(idle1_txt, 130, 180):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">PersonnageDB(droit bas)</Text-field></Title>
+<Group labelreference="L5846" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">position_PersoDB := Trans(idle1_txt, 650, 20):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">PersonnageDH(droit haut)</Text-field></Title>
+<Group labelreference="L5852" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">position_PersoDH := Trans(idle1_txt, 615, 125):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Variables Globales</Text-field></Title>
+<Group labelreference="L4166" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">imageParSeconde := 24.0:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4167" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">accelerationG   := -800.0 / imageParSeconde:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Sc\303\250ne 1 : D\303\251but et Compteurs</Font></Text-field></Title>
+<Group labelreference="L5697" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGB1        := position_PersoGB + Hom(2) . service1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5696" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGB2        := position_PersoGB + Hom(2) . service2_txt:</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L5695" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGB1  := display( RelierPlein(persoGB1, couleur_tete, style=polygon),
+                      Relier(persoGB1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5698" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGB2  := display( RelierPlein(persoGB2, couleur_tete, style=polygon),
+                      Relier(persoGB2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5716" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGH1        := position_PersoGH + Hom(1.95) . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5717" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGH2        := position_PersoGH + Hom(1.95) . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5718" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGH1  := display( RelierPlein(persoGH1, couleur_tete, style=polygon),
+                      Relier(persoGH1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5773" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGH2  := display( RelierPlein(persoGH2, couleur_tete, style=polygon),
+                      Relier(persoGH2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5872" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDB1        := position_PersoDB + Hom(2.05) . &lt;-1,0;0,1&gt; . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5871" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDB2        := position_PersoDB + Hom(2.05) . &lt;-1,0;0,1&gt; . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5870" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDB1  := display( RelierPlein(persoDB1, couleur_tete, style=polygon),
+                      Relier(persoDB1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5873" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDB2  := display( RelierPlein(persoDB2, couleur_tete, style=polygon),
+                      Relier(persoDB2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5897" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDH1        := position_PersoDH + Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5898" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDH2        := position_PersoDH + Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5899" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDH1  := display( RelierPlein(persoDH1, couleur_tete, style=polygon),
+                      Relier(persoDH1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5896" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDH2  := display( RelierPlein(persoDH2, couleur_tete, style=polygon),
+                      Relier(persoDH2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5495" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 0 to 24 do
+   objet_ballon := Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon := RelierPlein(objet_ballon, couleur_ballon, style=polygon):
+   image[t]     := display( CompteurAlternance( 6, t, image_trois, image_deux , image_un, image_go ),
+                      image_ballon,
+                      ImageAlternance(22, t, image_persoGB1, image_persoGB2),
+                      ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                      ImageAlternance(12, t + 6, image_persoDB1, image_persoDB2),
+                      ImageAlternance(12, t + 9, image_persoDH1, image_persoDH2),
+                      image_filet,
+                      image_soleil,
+                      image_dormeur,
+                      image_chaise,
+                      image_sable, 
+                      image_eau,
+                      image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Lancer du Service</Text-field></Title>
+<Group labelreference="L5988" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGB1        := position_PersoGB + Hom(2) . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5986" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGB2        := position_PersoGB + Hom(2) . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L5991" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGB1  := display( RelierPlein(persoGB1, couleur_tete, style=polygon),
+                      Relier(persoGB1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5992" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGB2  := display( RelierPlein(persoGB2, couleur_tete, style=polygon),
+                      Relier(persoGB2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5994" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 25 to 66 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   position_PersoDH := position_PersoDH + Trans(idle1_txt, 50/41, 20/41):
+   if( t &lt; 64 ) then
+      persoDH1     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:
+      persoDH2     := position_PersoDH +
+                            Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:
+   else
+      persoDH1     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . manchette_txt:
+      persoDH2     := position_PersoDH +
+                            Hom(2) . &lt;-1,0;0,1&gt; . manchette_txt:
+   end if:
+   image_persoDH1 := display( RelierPlein(persoDH1, couleur_tete, style=polygon),
+                         Relier(persoDH1, couleur_lignes, thickness=4) ):
+   image_persoDH2 := display( RelierPlein(persoDH2, couleur_tete, style=polygon),
+                            Relier(persoDH2, couleur_lignes, thickness=4) ):
+   image[t]       := display( image_ballon,
+                      ImageAlternance(12, t, image_persoGB1, image_persoGB2),
+                      ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                      ImageAlternance(12, t + 6, image_persoDB1, image_persoDB2),
+                      ImageAlternance(6, t + 9, image_persoDH1, image_persoDH2),
+                      image_filet,
+                      image_soleil,
+                      image_dormeur,
+                      image_chaise,
+                      image_sable, 
+                      image_eau,
+                      image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Manchette apr\303\250s le service</Font></Text-field></Title>
+<Group labelreference="L6261" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDH1        := position_PersoDH + Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6260" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDH2        := position_PersoDH + Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6259" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDH1  := display( RelierPlein(persoDH1, couleur_tete, style=polygon),
+                      Relier(persoDH1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6262" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDH2  := display( RelierPlein(persoDH2, couleur_tete, style=polygon),
+                      Relier(persoDH2, couleur_lignes, thickness=4) ):
+ballon_vitesse  := Trans( ballon_txt, -290, 755 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6254" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 67 to 107 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   position_PersoGH := position_PersoGH + Trans(idle1_txt, -15/30, -10/30):
+   if( t &lt; 105 ) then
+      persoGH1     := position_PersoGH +
+                         Hom(1.95) . idle1_txt:
+      persoGH2     := position_PersoGH +
+                         Hom(1.95) . idle2_txt:
+   else
+      persoGH1     := position_PersoGH +
+                         Hom(1.95) . touche_txt:
+      persoGH2     := position_PersoGH +
+                         Hom(1.95) . touche_txt:
+   end if:
+   image_persoGH1 := display( RelierPlein(persoGH1, couleur_tete, style=polygon),
+                         Relier(persoGH1, couleur_lignes, thickness=4) ):
+   image_persoGH2 := display( RelierPlein(persoGH2, couleur_tete, style=polygon),
+                            Relier(persoGH2, couleur_lignes, thickness=4) ):
+   image[t]        := display( image_ballon,
+                         ImageAlternance(12, t, image_persoGB1, image_persoGB2),
+                         ImageAlternance(6, t + 3, image_persoGH1, image_persoGH2),
+                         ImageAlternance(12, t + 6, image_persoDB1, image_persoDB2),
+                         ImageAlternance(12, t + 9, image_persoDH1, image_persoDH2),
+                         image_filet,
+                         image_soleil,
+                         image_dormeur,
+                         image_chaise,
+                         image_sable, 
+                         image_eau,
+                         image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Touche apr\303\250s la manchette</Font></Text-field></Title>
+<Group labelreference="L6501" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGH1        := position_PersoGH + Hom(1.95) . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6497" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGH2        := position_PersoGH + Hom(1.95) . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6494" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGH1  := display( RelierPlein(persoGH1, couleur_tete, style=polygon),
+                      Relier(persoGH1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6504" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGH2  := display( RelierPlein(persoGH2, couleur_tete, style=polygon),
+                      Relier(persoGH2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6539" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_vitesse  := Trans( ballon_txt, 330, 340 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6500" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 108 to 136 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   position_PersoDH := position_PersoDH + Trans(idle1_txt, -25/28, -5/28):
+   persoDH1     := position_PersoDH +
+                      Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:
+   persoDH2     := position_PersoDH +
+                      Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:
+   position_PersoDB := position_PersoDB + Trans(idle1_txt, -75/28, 25/28):
+   if( t &lt; 135 ) then
+      persoDB1     := position_PersoDB +
+                         Hom(2.05) . &lt;-1,0;0,1&gt; . idle1_txt:
+      persoDB2     := position_PersoDB +
+                            Hom(2.05) . &lt;-1,0;0,1&gt; . idle2_txt:
+   else
+      persoDB1     := position_PersoDB +
+                         Hom(2.05) . &lt;-1,0;0,1&gt; . manchette_txt:
+      persoDB2     := position_PersoDB +
+                            Hom(2.05) . &lt;-1,0;0,1&gt; . manchette_txt:
+   end if:
+   image_persoDB1 := display( RelierPlein(persoDB1, couleur_tete, style=polygon),
+                         Relier(persoDB1, couleur_lignes, thickness=4) ):
+   image_persoDB2 := display( RelierPlein(persoDB2, couleur_tete, style=polygon),
+                         Relier(persoDB2, couleur_lignes, thickness=4) ):
+   image_persoDH1 := display( RelierPlein(persoDH1, couleur_tete, style=polygon),
+                         Relier(persoDH1, couleur_lignes, thickness=4) ):
+   image_persoDH2 := display( RelierPlein(persoDH2, couleur_tete, style=polygon),
+                         Relier(persoDH2, couleur_lignes, thickness=4) ):
+   image[t]       := display( image_ballon,
+                      ImageAlternance(12, t, image_persoGB1, image_persoGB2),
+                      ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                      ImageAlternance(4, t + 6, image_persoDB1, image_persoDB2),
+                      ImageAlternance(6, t + 9, image_persoDH1, image_persoDH2),
+                      image_filet,
+                      image_soleil,
+                      image_dormeur,
+                      image_chaise,
+                      image_sable, 
+                      image_eau,
+                      image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Manchette apr\303\250s la touche</Font></Text-field></Title>
+<Group labelreference="L6771" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDB1        := position_PersoDB + Hom(2.05) . &lt;-1,0;0,1&gt; . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6772" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDB2        := position_PersoDB + Hom(2.05) . &lt;-1,0;0,1&gt; . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6776" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDB1  := display( RelierPlein(persoDB1, couleur_tete, style=polygon),
+                      Relier(persoDB1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6769" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDB2  := display( RelierPlein(persoDB2, couleur_tete, style=polygon),
+                      Relier(persoDB2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6773" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_vitesse  := Trans( ballon_txt, -340, 370 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L6781" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 137 to 158 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   position_PersoDH := position_PersoDH + Trans(idle1_txt, -25/28, -5/28):
+   persoDH1     := position_PersoDH +
+                      Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:
+   persoDH2     := position_PersoDH +
+                      Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:
+   position_PersoGB := position_PersoGB + Trans(idle1_txt, 25/23, 24/23):
+   if( t &lt; 156 ) then
+      persoGB1     := position_PersoGB +
+                         Hom(2) . idle1_txt:
+      persoGB2     := position_PersoGB +
+                            Hom(2) . idle2_txt:
+   else
+      persoGB1     := position_PersoGB +
+                         Hom(2) .  manchette_txt:
+      persoGB2     := position_PersoGB +
+                            Hom(2) . manchette_txt:
+   end if:
+   image_persoDH1 := display( RelierPlein(persoDH1, couleur_tete, style=polygon),
+                         Relier(persoDH1, couleur_lignes, thickness=4) ):
+   image_persoDH2 := display( RelierPlein(persoDH2, couleur_tete, style=polygon),
+                         Relier(persoDH2, couleur_lignes, thickness=4) ):
+   image_persoGB1 := display( RelierPlein(persoGB1, couleur_tete, style=polygon),
+                         Relier(persoGB1, couleur_lignes, thickness=4) ):
+   image_persoGB2 := display( RelierPlein(persoGB2, couleur_tete, style=polygon),
+                         Relier(persoGB2, couleur_lignes, thickness=4) ):
+   image[t]       := display( image_ballon,
+                      ImageAlternance(4, t, image_persoGB1, image_persoGB2),
+                      ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                      ImageAlternance(6, t + 6, image_persoDB1, image_persoDB2),
+                      ImageAlternance(6, t + 9, image_persoDH1, image_persoDH2),
+                      image_filet,
+                      image_soleil,
+                      image_dormeur,
+                      image_chaise,
+                      image_sable, 
+                      image_eau,
+                      image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Touche allant \303\252tre re\303\247u comme une amortie</Font></Text-field></Title>
+<Group labelreference="L7045" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGB1        := position_PersoGB + Hom(2) . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7043" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGB2        := position_PersoGB + Hom(2) . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L7046" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGB1  := display( RelierPlein(persoGB1, couleur_tete, style=polygon),
+                      Relier(persoGB1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7051" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGB2  := display( RelierPlein(persoGB2, couleur_tete, style=polygon),
+                      Relier(persoGB2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7041" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_vitesse  := Trans( ballon_txt, 600, 450 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7050" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 159 to 170 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   position_PersoDB := position_PersoDB + Trans(idle1_txt, 5/11, -30/11):
+   persoDB1     := position_PersoDB +
+                      Hom(2.05) . &lt;-1,0;0,1&gt; . idle1_txt:
+   persoDB2     := position_PersoDB +
+                      Hom(2.05) . &lt;-1,0;0,1&gt; . idle2_txt:
+   position_PersoDH := position_PersoDH + Trans(idle1_txt, -70/11, -50/11):
+   persoDH1     := position_PersoDH +
+                      Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:
+   persoDH2     := position_PersoDH +
+                      Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:
+   if( t &lt; 168 ) then
+      persoDH1     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:
+      persoDH2     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:
+   else
+      persoDH1     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . touche_txt:
+      persoDH2     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . touche_txt:
+   end if:
+   image_persoDB1 := display( RelierPlein(persoDB1, couleur_tete, style=polygon),
+                         Relier(persoDB1, couleur_lignes, thickness=4) ):
+   image_persoDB2 := display( RelierPlein(persoDB2, couleur_tete, style=polygon),
+                         Relier(persoDB2, couleur_lignes, thickness=4) ):
+   image_persoDH1 := display( RelierPlein(persoDH1, couleur_tete, style=polygon),
+                         Relier(persoDH1, couleur_lignes, thickness=4) ):
+   image_persoDH2 := display( RelierPlein(persoDH2, couleur_tete, style=polygon),
+                         Relier(persoDH2, couleur_lignes, thickness=4) ):
+   image_persoGB1 := display( RelierPlein(persoGB1, couleur_tete, style=polygon),
+                         Relier(persoGB1, couleur_lignes, thickness=4) ):
+   image_persoGB2 := display( RelierPlein(persoGB2, couleur_tete, style=polygon),
+                         Relier(persoGB2, couleur_lignes, thickness=4) ):
+   image[t]       := display( image_ballon,
+                      ImageAlternance(12, t, image_persoGB1, image_persoGB2),
+                      ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                      ImageAlternance(12, t + 6, image_persoDB1, image_persoDB2),
+                      ImageAlternance(2, t + 9, image_persoDH1, image_persoDH2),
+                      image_filet,
+                      image_soleil,
+                      image_dormeur,
+                      image_chaise,
+                      image_sable, 
+                      image_eau,
+                      image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Touche-Passe</Text-field></Title>
+<Group labelreference="L7259" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDH1        := position_PersoDH + Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7258" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoDH2        := position_PersoDH + Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7257" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDH1  := display( RelierPlein(persoDH1, couleur_tete, style=polygon),
+                      Relier(persoDH1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7260" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoDH2  := display( RelierPlein(persoDH2, couleur_tete, style=polygon),
+                      Relier(persoDH2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7213" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_vitesse  := Trans( ballon_txt, -610, 450 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7216" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 171 to 188 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   position_PersoGH := position_PersoGH + Trans(idle1_txt, -40/10, 5/17):
+   persoGH1     := position_PersoGH +
+                      Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:
+   persoGH2     := position_PersoGH +
+                      Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:
+   if( t &lt; 186 ) then
+      persoGH1     := position_PersoGH +
+                         Hom(2) . idle1_txt:
+      persoGH2     := position_PersoGH +
+                         Hom(2) . idle2_txt:
+   else
+      persoGH1     := position_PersoGH +
+                         Hom(2) . touche_txt:
+      persoGH2     := position_PersoGH +
+                         Hom(2) . touche_txt:
+   end if:
+   image_persoGH1 := display( RelierPlein(persoGH1, couleur_tete, style=polygon),
+                         Relier(persoGH1, couleur_lignes, thickness=4) ):
+   image_persoGH2 := display( RelierPlein(persoGH2, couleur_tete, style=polygon),
+                         Relier(persoGH2, couleur_lignes, thickness=4) ):
+   image[t]       := display( image_ballon,
+                      ImageAlternance(12, t, image_persoGB1, image_persoGB2),
+                      ImageAlternance(4, t + 3, image_persoGH1, image_persoGH2),
+                      ImageAlternance(12, t + 6, image_persoDB1, image_persoDB2),
+                      ImageAlternance(12, t + 9, image_persoDH1, image_persoDH2),
+                      image_filet,
+                      image_soleil,
+                      image_dormeur,
+                      image_chaise,
+                      image_sable, 
+                      image_eau,
+                      image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Touche apr\303\250s la passe</Font></Text-field></Title>
+<Group labelreference="L7431" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGH1        := position_PersoGH + Hom(1.95) . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7423" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGH2        := position_PersoGH + Hom(1.95) . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7415" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGH1  := display( RelierPlein(persoGH1, couleur_tete, style=polygon),
+                      Relier(persoGH1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7425" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGH2  := display( RelierPlein(persoGH2, couleur_tete, style=polygon),
+                      Relier(persoGH2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7417" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_vitesse  := Trans( ballon_txt, 150, 340 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7422" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 189 to 210 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   position_PersoGB := position_PersoGB + Trans(idle1_txt, 5/21, 95/21):
+   persoGB1     := position_PersoGB +
+                      Hom(2) . idle1_txt:
+   persoGB2     := position_PersoGB +
+                      Hom(2) . idle2_txt:
+   if( t &lt; 208 ) then
+      persoGB1     := position_PersoGB +
+                         Hom(2) . idle1_txt:
+      persoGB2     := position_PersoGB +
+                         Hom(2) . idle2_txt:
+   else
+      persoGB1     := position_PersoGB +
+                         Hom(2) . touche_txt:
+      persoGB2     := position_PersoGB +
+                         Hom(2) . touche_txt:
+   end if:
+   image_persoGB1 := display( RelierPlein(persoGB1, couleur_tete, style=polygon),
+                         Relier(persoGB1, couleur_lignes, thickness=4) ):
+   image_persoGB2 := display( RelierPlein(persoGB2, couleur_tete, style=polygon),
+                         Relier(persoGB2, couleur_lignes, thickness=4) ):
+   image[t]       := display( image_ballon,
+                      ImageAlternance(3, t, image_persoGB1, image_persoGB2),
+                      ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                      ImageAlternance(12, t + 6, image_persoDB1, image_persoDB2),
+                      ImageAlternance(12, t + 9, image_persoDH1, image_persoDH2),
+                      image_filet,
+                      image_soleil,
+                      image_dormeur,
+                      image_chaise,
+                      image_sable, 
+                      image_eau,
+                      image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Lancer Final</Text-field></Title>
+<Group labelreference="L7607" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGB1        := position_PersoGB + Hom(2) . idle1_txt:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7619" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">persoGB2        := position_PersoGB + Hom(2) . idle2_txt:</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L7617" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGB1  := display( RelierPlein(persoGB1, couleur_tete, style=polygon),
+                      Relier(persoGB1, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7620" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">image_persoGB2  := display( RelierPlein(persoGB2, couleur_tete, style=polygon),
+                      Relier(persoGB2, couleur_lignes, thickness=4) ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7618" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_vitesse  := Trans( ballon_txt, 310, 700 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7609" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 211 to 257 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   position_PersoDH := position_PersoDH + Trans(idle1_txt, 130/46, 70/46):
+   persoDH1     := position_PersoDH +
+                      Hom(2) . idle1_txt:
+   persoDH2     := position_PersoDH +
+                      Hom(2) . idle2_txt:
+   if( 247 &lt; t and t &lt; 252 ) then
+      persoDH1     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . touche_txt:
+      persoDH2     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . touche_txt:
+   else
+      persoDH1     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . idle1_txt:
+      persoDH2     := position_PersoDH +
+                         Hom(2) . &lt;-1,0;0,1&gt; . idle2_txt:
+   end if:
+   position_PersoDB := position_PersoDB + Trans(idle1_txt, 140/46, 40/46):
+   persoDB1     := position_PersoDB +
+                      Hom(2) . idle1_txt:
+   persoDB2     := position_PersoDB +
+                      Hom(2) . idle2_txt:
+   if( 251 &lt; t and t &lt; 256 ) then
+      persoDB1     := position_PersoDB +
+                         Hom(2.05) . &lt;-1,0;0,1&gt; . touche_txt:
+      persoDB2     := position_PersoDB +
+                         Hom(2.05) . &lt;-1,0;0,1&gt; . touche_txt:
+   else
+      persoDB1     := position_PersoDB +
+                         Hom(2.05) . &lt;-1,0;0,1&gt; . idle1_txt:
+      persoDB2     := position_PersoDB +
+                         Hom(2.05) . &lt;-1,0;0,1&gt; . idle2_txt:
+   end if:
+   image_persoDH1 := display( RelierPlein(persoDH1, couleur_tete, style=polygon),
+                         Relier(persoDH1, couleur_lignes, thickness=4) ):
+   image_persoDH2 := display( RelierPlein(persoDH2, couleur_tete, style=polygon),
+                         Relier(persoDH2, couleur_lignes, thickness=4) ):
+   image_persoDB1 := display( RelierPlein(persoDB1, couleur_tete, style=polygon),
+                         Relier(persoDB1, couleur_lignes, thickness=4) ):
+   image_persoDB2 := display( RelierPlein(persoDB2, couleur_tete, style=polygon),
+                         Relier(persoDB2, couleur_lignes, thickness=4) ):
+   image[t]       := display( image_ballon,
+                      ImageAlternance(12, t, image_persoGB1, image_persoGB2),
+                      ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                      ImageAlternance(4, t + 6, image_persoDB1, image_persoDB2),
+                      ImageAlternance(4, t + 9, image_persoDH1, image_persoDH2),
+                      image_filet,
+                      image_soleil,
+                      image_dormeur,
+                      image_chaise,
+                      image_sable, 
+                      image_eau,
+                      image_ciel ):
+end do:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">Coup sur la face et Fin</Text-field></Title>
+<Group labelreference="L7881" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ballon_vitesse  := Trans( ballon_txt, -75, 135 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7882" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for t from 258 to 275 do
+   ballon_vitesse  := ballon_vitesse + Trans( ballon_txt, 0, accelerationG):
+   ballon_position := ballon_position + ( 1.0 / imageParSeconde )*ballon_vitesse:
+   ballon_theta    := ballon_theta + AngleBallon( ballon_vitesse, 1 / imageParSeconde ):
+   ballon          := Rot( ballon_theta ) . Hom( 10 ) . ballon_txt + ballon_position:
+   image_ballon    := RelierPlein(ballon, couleur_ballon, style=polygon):
+   dormeur_theta    := dormeur_theta + 13 - 3*(t - 258):
+   if( dormeur_theta &lt; 0 ) then
+      dormeur_theta := 0:
+   end if:
+   dormeur_position := dormeur_position + Trans( dormeur_txt, 0, 20 - 5*(t - 258) ):
+   if( dormeur_position[2,1] &lt; 0 ) then
+       dormeur_position := Trans( dormeur_txt, 770, 0 ):
+   end if:
+   dormeur          := Rot( dormeur_theta ) . ( dormeur2_txt + Trans( dormeur_txt, -120, -60) ) + dormeur_position + Trans( dormeur_txt, 120, 60):
+   image_dormeur    := display( RelierPlein(dormeur, couleur_chapeau, style=polygon),
+   RelierPlein(dormeur, couleur_dormeur1, style=polygon), Relier(dormeur, couleur_dormeur2, thickness=4)):
+   if( t &lt; 266 ) then
+      image[t]       := display( image_ballon,
+                         ImageAlternance(12, t, image_persoGB1, image_persoGB2),
+                         ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                         ImageAlternance(12, t + 6, image_persoDB1, image_persoDB2),
+                         ImageAlternance(12, t + 9, image_persoDH1, image_persoDH2),
+                         image_filet,
+                         image_soleil,
+                         image_dormeur,
+                         image_chaise,
+                         image_sable, 
+                         image_eau,
+                         image_ciel ):
+   else
+      image[t]       := display( image_fin, 
+                         image_ballon,
+                         ImageAlternance(12, t, image_persoGB1, image_persoGB2),
+                         ImageAlternance(12, t + 3, image_persoGH1, image_persoGH2),
+                         ImageAlternance(12, t + 6, image_persoDB1, image_persoDB2),
+                         ImageAlternance(12, t + 9, image_persoDH1, image_persoDH2),
+                         image_filet,
+                         image_soleil,
+                         image_dormeur,
+                         image_chaise,
+                         image_sable, 
+                         image_eau,
+                         image_ciel ):
+   end if:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L7880" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">R\303\251sultat</Font></Text-field></Title>
+<Group hide-output="false" labelreference="L2611" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">display(seq(image[t], t=0..275),
+        size=[1000,600],
+        title=equipe,
+        insequence=true,
+        view=fenetre,
+        axes=boxed,
+        tickmarks=[0,0],
+        scaling=constrained);</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Group hide-output="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
