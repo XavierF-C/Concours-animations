@@ -1,4 +1,4 @@
-# Concours-animations
+# Concours d'animations
 
 L'animation se trouvant ici a obtenu la première place lors du concours d'animations du département de mathématiques du Cégep régional de Lanaudière à Joliette.
 https://www.laction.com/article/2017/01/27/xavier-fauteux-chapleau-grand-gagnant-du-concours-d-animations
